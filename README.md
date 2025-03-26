@@ -69,7 +69,11 @@ Now, Queue becomes empty, So, terminate these process of iteration.
 </ol>
 
 <h3>Program:</h3>
-```  
+
+
+```
+
+
 from collections import deque
 from collections import defaultdict
 
@@ -116,6 +120,8 @@ visited = defaultdict(bool)
 traversedpath = bfs(graph,start,visited,path)
 print(traversedpath)
 
+
+
 ```
 
 <hr>
@@ -156,7 +162,11 @@ G F <BR>
 
 
 <h3>Output:</h3>
+
+
 ![Screenshot 2025-03-26 155856](https://github.com/user-attachments/assets/eba8c4e8-1b1d-40b7-b393-ed8422d7694f)
+
+
 
 <h3>Result:</h3>
 <p>Thus,a Graph was constructed and implementation of Breadth First Search for the same graph was done successfully.</p>
